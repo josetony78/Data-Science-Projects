@@ -1,0 +1,64 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "budget",
+        "location",
+        "cuisine",
+        "email"
+      ]
+    },
+    "action_validate_location": {
+      "slots": [
+        "location"
+      ]
+    },
+    "action_validate_cuisine": {
+      "slots": [
+        "cuisine"
+      ]
+    },
+    "action_validate_budget": {
+      "slots": [
+        "budget"
+      ]
+    },
+    "action_search_restaurants": {
+      "slots": [
+        "budget"
+      ]
+    },
+    "action_validate_email": {
+      "slots": [
+        "email"
+      ]
+    },
+    "action_email": {
+      "slots": [
+        "email"
+      ]
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "action_restarted": {
+      "slots": []
+    }
+  },
+  "python": "3.7.6",
+  "max_histories": [
+    5,
+    5,
+    null
+  ],
+  "ensemble_name": "rasa.core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa.core.policies.memoization.MemoizationPolicy",
+    "rasa.core.policies.keras_policy.KerasPolicy",
+    "rasa.core.policies.mapping_policy.MappingPolicy"
+  ],
+  "trained_at": "20200530-131629",
+  "rasa": "1.10.1",
+  "tensorflow": "2.1.1",
+  "sklearn": "0.22.1"
+}

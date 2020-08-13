@@ -1,0 +1,22 @@
+[
+    {
+        "name": "email",
+        "pattern": "([\\w.-]+)@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.)|(([\\w-]+.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(]?)"
+    },
+    {
+        "name": "greet",
+        "pattern": "hel[^\\s]*"
+    },
+    {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+    },
+    {
+        "name": "greet",
+        "pattern": "hi[^\\s]*"
+    },
+    {
+        "name": "pincode",
+        "pattern": "[0-9]{6}"
+    }
+]

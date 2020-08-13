@@ -1,0 +1,24 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "budget",
+      "2": "cuisine",
+      "3": "deny",
+      "4": "email",
+      "5": "location",
+      "6": "people",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "budget": 1,
+      "cuisine": 2,
+      "deny": 3,
+      "email": 4,
+      "location": 5,
+      "people": 6,
+      "O": 0
+    },
+    "num_tags": 7
+  }
+]
